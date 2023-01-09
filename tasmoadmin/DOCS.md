@@ -24,6 +24,10 @@ comparison to installing any other Home Assistant add-on.
 1. Start the "TasmoAdmin" add-on.
 1. Check the logs of the “TasmoAdmin” add-on to see if everything went well.
 
+## Requirements / Compatibility
+
+Tasmota devices must enable HTTP API. Either by checking HTTP API enable on the Configure Other page, or entering `SetOption128 1` in the console.
+
 ## Configuration
 
 **Note**: _Remember to restart the add-on when the configuration is changed._
